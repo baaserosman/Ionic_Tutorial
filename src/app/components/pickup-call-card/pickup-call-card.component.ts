@@ -13,6 +13,8 @@ export class PickupCallCardComponent implements OnInit {
   @Input() updateAt: string;
   @Input() createdAt: string;
   @Input() notes: string;
+  @Input() value: string;
+
 
   constructor() {}
 
